@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Support</title>
+    <link rel="stylesheet" href="css/support.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CRM System</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="tasks.html">Tasks</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+            <div class="user-profile">
+                <img src="assets/images/user-icon.png" alt="User Profile">
+                <span>User Name</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="support">
+            <h1>Customer Support</h1>
+            <button id="addTicketBtn">Add New Ticket</button>
+            <table id="supportTable">
+                <thead>
+                    <tr>
+                        <th>Ticket ID</th>
+                        <th>Customer Name</th>
+                        <th>Issue</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Support tickets will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="js/support.js"></script>
+</body>
+</html>
