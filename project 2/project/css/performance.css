@@ -1,0 +1,46 @@
+/* Performance Page Styles */
+#performanceOverview {
+    margin-bottom: 20px;
+}
+
+.performance-indicators {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.indicator {
+    background-color: #2b2d42;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #edf2f4;
+    width: 100%;
+}
+
+.indicator h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.indicator p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#charts {
+    margin-top: 20px;
+}
+
+.chart-container {
+    margin-bottom: 20px;
+    background-color: #2b2d42;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Specific styles for smaller pie chart */
+#tradesChartContainer {
+    width: 300px;
+    margin: 0 auto;
+}

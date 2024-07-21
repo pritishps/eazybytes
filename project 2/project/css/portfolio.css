@@ -1,0 +1,56 @@
+/* Portfolio Page Styles */
+#portfolio {
+    margin-bottom: 20px;
+}
+
+#portfolio table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#portfolio th, #portfolio td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+#portfolio th {
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+
+#portfolio td {
+    background-color: #333;
+}
+
+#portfolio button {
+    background-color: #d90429;
+    color: #edf2f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+#portfolio button:hover {
+    background-color: #ef233c;
+}
+
+.positive {
+    color: #4caf50;
+}
+
+.negative {
+    color: #f44336;
+}
+
+.total-profit-loss {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#chartSection {
+    margin-top: 20px;
+}

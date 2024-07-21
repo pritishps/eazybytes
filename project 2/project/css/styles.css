@@ -1,0 +1,178 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #edf2f4;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #8d99ae;
+    border-radius: 5px;
+}
+
+/* Main styling */
+main {
+    padding: 20px;
+}
+
+/* Home section */
+#home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #2b2d42;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #edf2f4;
+}
+
+#home button {
+    padding: 10px 20px;
+    background-color: #d90429;
+    color: #edf2f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+#home button:hover {
+    background-color: #ef233c;
+}
+
+/* Portfolio section */
+#portfolio {
+    margin-bottom: 20px;
+}
+
+#portfolio table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#portfolio th, #portfolio td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+#portfolio th {
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+
+#portfolio td {
+    background-color: #333;
+}
+
+.positive {
+    color: #4caf50;
+}
+
+.negative {
+    color: #f44336;
+}
+
+/* Trade section */
+#trade {
+    margin-bottom: 20px;
+}
+
+#trade form {
+    display: flex;
+    flex-direction: column;
+}
+
+#trade label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+
+#trade input, #trade button {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #d4d4d4;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+#trade button {
+    background-color: #d90429;
+    color: #edf2f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#trade button:hover {
+    background-color: #ef233c;
+}
+
+/* Performance section */
+#performance {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #2b2d42;
+    color: #edf2f4;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+}
